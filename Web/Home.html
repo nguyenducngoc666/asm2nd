@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Fashion</title>
+    <link rel="stylesheet" href="Home.css">
+</head>
+<body>
+    <!--Navigation Bar-->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">Men's Fashion</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Logout.html" id="logout">Logout</a></li>
+            </ul>
+            <div class="cart">
+                <li><a href="#" id="cart-link">🛒 Cart (<span id="cart-count">0</span>)</a></li>
+                <li><a href="Profile.html">Profile<span id="username-display"></span></a></li>
+            </div>
+        </nav>
+    </header>
+    <!-- Cart Model -->
+    <div id="cart-model" class="model">
+        <div class="model-content">
+            <span class="close">&times;</span>
+            <h2>Your Cart</h2>
+            <ul id="cart-items"></ul>
+            <button id="checkout">Checkout</button>
+        </div>
+    </div>
+    <!--Product-->
+    <section class="Product">
+        <h2>Our Products</h2>
+        <div class="products">
+            <div class="product-card" data-name="T-Shirt" data-price="30">
+                <img src="Products/istockphoto-482948743-612x612.jpg" alt="Product 1">
+                <h3>T-Shirt</h3>
+                <p>$30</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-name="Hoodie" data-price="80">
+                <img src="Products/istockphoto-1142211733-612x612.jpg" alt="Product 2">
+                <h3>Hoodie</h3>
+                <p>$80</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-name="Casual Jeans" data-price="45">
+                <img src="Products/download.jpg" alt="Product 3">
+                <h3>Casual Jeans</h3>
+                <p>$45</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-name="Polo Shirt" data-price="50">
+                <img src="Products/images.jpg" alt="Product 4">
+                <h3>Polo Shirt</h3>
+                <p>$50</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-name="Denim Jacket" data-price="35">
+                <img src="Products/denim-jacket-isolated-blue-jean-600nw-2120891270.webp" alt="Product 5">
+                <h3>Denim Jacket</h3>
+                <p>$35</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-name="Watch" data-price="100">
+                <img src="Products/S001B_62c98061-2682-4356-b617-a8ecb4f2d0ef.webp" alt="Product 6">
+                <h3>Watch</h3>
+                <p>$100</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-name="Shirt" data-price="60">
+                <img src="Products/istockphoto-1142212980-612x612.jpg" alt="Product 7">
+                <h3>Shirt</h3>
+                <p>$60</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <p>56 Main Street, City, Country</p>
+                <p>© 2024 Men's Fashion</p>
+            </div>
+            <div class="footer-right">
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="https://www.facebook.com/"><img src="Images/facebook.svg"></a></li>
+                    <li><a href="https://www.instagram.com/"><img src="Images/icons8-instagram.svg"></a></li>
+                    <li><a href="https://x.com/home"><img src="Images/icons8-twitterx.svg"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="Cart.js"></script>
+</body>
+</html>

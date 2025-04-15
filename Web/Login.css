@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f8f8;
+}
+.container {
+    display: flex;
+    width: 700px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.login-box, .register-box {
+    padding: 40px;
+}
+.login-box {
+    flex: 1;
+    background-color: #fff;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.register-box {
+    flex: 1;
+    background: linear-gradient(135deg, #ff7f7f, #ffb3b3);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+h2 {
+    margin: 0 0 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    font-size: 14px;
+    color: #555;
+}
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-group input[type="checkbox"] {
+    margin-right: 5px;
+}
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-actions a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff6b6b;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 5px;
+    width: 100%;
+}
+.register-box a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #ff6b6b;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
